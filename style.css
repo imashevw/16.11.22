@@ -19,8 +19,10 @@ nav a {
     padding: 20px;
     display: inline-block;
     color: white;
+    text-decoration: none;
 }
 a:hover {
     background-color: white;
     color: black;
+    text-decoration: underline;
 }
