@@ -19,7 +19,7 @@ body {
     margin: 0;
     background-color: black;
     color: whitesmoke;
-    background-image: url(./why.jpeg);
+    background-image: url(./russian.jpg);
 
      height: 100vh;
     background-repeat: no-repeat;
@@ -30,6 +30,8 @@ body {
     align-items: center; 
     padding: 5%;
     margin-bottom: 50px;
+    padding-top: 200px;
+    
 
 }
 nav a {
