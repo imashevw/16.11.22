@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 nav {
-    background-color: black;
+    /* background-color: black; */
     position: sticky;
     top: 0;
     left: 0;
@@ -17,6 +17,19 @@ nav {
 }
 body {
     margin: 0;
+    background-color: black;
+    color: antiquewhite;
+    background-image: url(./america.jpg);
+
+     height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    padding: 5%;
+    margin-bottom: 50px;
 
 }
 nav a {
@@ -31,14 +44,7 @@ a:hover {
     text-decoration: underline;
 }
 header {
-    /* background-image: url(./photo.jpg); */
-    color: rgb(9, 8, 8);
-    /* height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; */
-    /* padding: 5%; */
+    
+    color: white;
+   
 }
