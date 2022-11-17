@@ -18,7 +18,7 @@ nav {
 body {
     margin: 0;
     background-color: black;
-    color: antiquewhite;
+    color: whitesmoke;
     background-image: url(./why.jpeg);
 
      height: 100vh;
@@ -42,9 +42,4 @@ a:hover {
     background-color: white;
     color: black;
     text-decoration: underline;
-}
-header {
-    
-    color: white;
-   
 }
