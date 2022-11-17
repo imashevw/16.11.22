@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+nav {
+    /* background-color: black; */
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+ nav ul {
+    padding: none;
+    margin: none;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+body {
+    margin: 0;
+    background-color: black;
+    color: whitesmoke;
+    background-image: url(./why.jpeg);
+
+     height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    padding: 5%;
+    margin-bottom: 50px;
+
+}
+nav a {
+    padding: 20px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    background-color: white;
+    color: black;
+    text-decoration: underline;
+}
